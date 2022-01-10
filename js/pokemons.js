@@ -4567,6 +4567,42 @@ var pokemons = [
             "num": "147",
             "name": "Dratini"
         },
+
+        {
+            "num": "148",
+            "name": "Dragonair"
+        }
+        ]
+    },
+    {
+        "id": 149,
+        "num": "149",
+        "name": "Dragonite",
+        "img": "http://pm1.narvii.com/6818/707a245f6361d1de95ffa3e0202f27be3b60ccf1v2_00.jpg",
+        "type": [
+        "Dragon",
+        "Flying"
+        ],
+        "height": "2.31 m",
+        "weight": "220.0 kg",
+        "candy": "Dratini Candy",
+        "egg": "Not in Eggs",
+        "spawn_chance": 0.0111,
+        "avg_spawns": 0.11,
+        "spawn_time": "23:38",
+        "multipliers": null,
+        "weaknesses": [
+        "Ice",
+        "Rock",
+        "Dragon",
+        "Fairy"
+        ],
+        "prev_evolution": [
+        {
+            "num": "147",
+            "name": "Dratini"
+        },
+
         {
             "num": "148",
             "name": "Dragonair"
