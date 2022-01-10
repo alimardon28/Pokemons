@@ -1,0 +1,33 @@
+body{
+    box-sizing: border-box;
+    background-color:#FFD845 ;
+    margin: 0 auto;
+    font-family: sans-serif;
+}
+
+.pokimons-img{
+    margin-left: 320px !important;
+}
+
+.search-icon{
+    margin-left: -45px !important;
+}
+
+.border{
+    border-radius: 10px !important;
+    border: 2px solid #000 !important;
+}
+
+.pokemons__list{
+    list-style: none;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    min-width: 400px !important;
+}
+
+.pokemons__card{
+    min-width: 300px !important;
+    max-height: 450px !important;
+    min-height:470px !important ;
+    border-radius: 20px !important;
+}
