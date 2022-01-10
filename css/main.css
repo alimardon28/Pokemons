@@ -1,5 +1,6 @@
 body{
-    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
     background-color:#FFD845 ;
     margin: 0 auto;
     font-family: sans-serif;
@@ -47,8 +48,11 @@ body{
 
 .pokemons__list{
     list-style: none;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
     min-width: 400px !important;
 }
 

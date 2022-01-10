@@ -19,7 +19,6 @@ let newPokemonsTime = document.createElement('p');
 let newPokemonsMass = document.createElement('span');
 let newPokemonsAge = document.createElement('span');
 
-
 //SET ATRIBUT
 
 newItem.setAttribute('class' ,'pokemons__item');
@@ -57,6 +56,5 @@ newCardBody.appendChild(newPokemonsTitle);
 newCardBody.appendChild(newPokemonsTime);
 newCardBody.appendChild(newPokemonsMass);
 newCardBody.appendChild(newPokemonsAge);
-
 
 }
