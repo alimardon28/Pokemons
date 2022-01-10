@@ -5,12 +5,39 @@ body{
     font-family: sans-serif;
 }
 
+
 .pokimons-img{
     margin-left: 320px !important;
 }
 
+.buttonDropdown{
+    max-width:260px !important;
+    min-width: 260px !important;
+    min-height: 60px;
+}
+
+.inputSearch{
+    max-width:300px !important;
+    min-width: 300px !important;
+    min-height: 60px;
+    margin-left: 10px;
+}
+
+.buttonButton{
+    max-width:200px !important;
+    min-width: 200px !important;
+    min-height: 60px;
+}
+
 .search-icon{
-    margin-left: -45px !important;
+    margin-left: -50px !important;
+    margin-top: 18px !important;
+    min-width: 24px;
+    min-height: 24px;
+}
+
+.serachResult{
+    margin-left: 29px;
 }
 
 .border{
@@ -26,8 +53,34 @@ body{
 }
 
 .pokemons__card{
-    min-width: 300px !important;
-    max-height: 450px !important;
-    min-height:470px !important ;
+    min-width: 307px !important;
+    max-width: 307px !important;
+    max-height: 423px !important;
+    min-height:423px !important ;
     border-radius: 20px !important;
+}
+
+.card-img-top{
+    width: 157px;
+    margin: 0 auto;
+}
+
+.card-body{
+    border-top: 2px solid #000;
+}
+
+.pokemons-heart{
+    position: relative;
+}
+.card-title{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.pokemons-heart-img{
+    display: inline-block;
+    vertical-align: middle;
+    position: absolute;
+    right: 9px;
+
 }
