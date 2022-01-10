@@ -8,26 +8,35 @@ body{
 
 
 .pokimons-img{
-    margin-left: 320px !important;
+    margin-left: 380px !important;
 }
 
 .buttonDropdown{
     max-width:260px !important;
     min-width: 260px !important;
     min-height: 60px;
+    margin-left: 120px !important;
 }
 
 .inputSearch{
     max-width:300px !important;
     min-width: 300px !important;
     min-height: 60px;
-    margin-left: 10px;
+    margin-left: 70px;
 }
 
 .buttonButton{
     max-width:200px !important;
     min-width: 200px !important;
     min-height: 60px;
+    margin-left: 10px;
+}
+
+.dropdownButton{
+    max-width:260px !important;
+    min-width: 260px !important;
+    min-height: 60px;
+    margin-left: 60px !important;
 }
 
 .search-icon{
